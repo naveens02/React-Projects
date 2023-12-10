@@ -1,0 +1,100 @@
+
+.App {
+  text-align: center;
+   background: #1c0162; 
+  color: #e7e0e0;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+ 
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #f2eeee;
+}
+
+
+.product-list {
+  border: 1px solid #0b0141;
+  padding: 20px;
+  margin: 10px;
+  background-color: #110254;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-container {
+  background: #8758ff;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.editbox {
+  width: 400px; 
+  padding: 8px;
+  border: 1px solid #0f0000;
+  border-radius: 5px;
+}
+.todo-input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #0f0000;
+  border-radius: 5px;
+}
+
+.todo-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.list-item {
+  list-style: none;
+  border: 1px solid #06003b;
+  padding: 10px;
+  margin: 5px 0;
+  background: #8758ff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item > div {
+  display: flex;
+  align-items: center;
+}
+
+.list-item-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.edit-button,
+.delete-button {
+ 
+  
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.save-button {
+  width: 100px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
